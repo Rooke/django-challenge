@@ -27,16 +27,26 @@ Many columns have blank data, so an attempt at made at making the schema forgivi
 
 Day 1:
 T+20 (minutes): Look at data, put into postgres to query
+
 T+40: Setup fresh Django project
+
 T+57: Read docs on Django models (field types, etc.)
+
 T+65: Model 'Home' using some guesses at field types
+
 T+82: Finished modelling Home type
+
 t+100: Successfully imported (incorrect) data
+
 T+120: Commit progress (end of day)
 
 Day 2:
 T+130: Reading about rest_framework
+
 T+150: Working demo with rest_framework
+
 T+155: Attempt to write a test, bail
+
 t+170: Attempt to POST some data using rest_framework's default UI
+
 t+190: Write this log/README
