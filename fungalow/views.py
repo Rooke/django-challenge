@@ -1,6 +1,8 @@
-from django.shortcuts import render
 from .models import Home
+from .serializers import HomeSerializer
+from rest_framework import generics
 
-def home_list(request):
-    return JsonResponse(list(Home.objects.values()), safe=False)
+class HomeList(generics.ListCreateAPIView):
+    queryset = Home.objects.all()
+    serializer_class = HomeSerializer
 
